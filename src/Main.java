@@ -1,4 +1,8 @@
- class Curso {
+import br.com.dio.desafio.dominio.Mentoria;
+
+import java.util.ArrayList;
+
+class Curso {
     public static void main(String[] args) {
         Curso curso1 = new Curso();
         curso1.setTitulo("curso java");
@@ -6,9 +10,16 @@
         curso1.setCargaHoraria(8);
 
         Curso curso2 = new Curso();
-        curso1.setTitulo("curso js");
-        curso1.setDescricao("descricao curso js");
-        curso1.setCargaHoraria(4);
+        curso2.setTitulo("curso js");
+        curso2.setDescricao("descricao curso js");
+        curso2.setCargaHoraria(4);
+
+        Conteudo conteudo = new Curso ();
+        Conteudo conteudo1 = new Mentoria();
+
+        List<String> palavras = new ArrayList<>(); /*polimorfismo*/
+        /*td que tem em list, tem em array list mas nao o contrario*/
+
 
         Mentoria mentoria = new mentoria ();
         mentoria.setTitulo("mentoria de java");
